@@ -20,7 +20,7 @@ Each document conforms to the following schema:
     "comment": "<html>",
     "author": "<string>"
   },
-  "spam": "<boolean>"
+  "spam": "<boolean>",
   "meta": {
     "ups": "<integer>",
     "downs": "<integer>"
