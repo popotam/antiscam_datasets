@@ -12,6 +12,7 @@ Each dataset consists of the following files:
 
 * **{dataset}.json.gz** - a compressed file with a list of newline separated JSON documents. This is considered RAW data.
 * **{dataset}.labels.csv.gz** - a compressed CSV file with document labels (0=not_spam, 1=spam)
+* **{dataset}.datetimes.csv.gz** - a compressed CSV file with document creation time in ISO format
 * **{dataset}.features.csv.gz** - a compressed CSV file with feature vectors for each document
 * **{dataset}.features.normalized.csv.gz** - a compressed CSV file with normalized feature vectors for each document
 * **{dataset}.normalization.csv.gz** - a compressed CSV file with description of each normalization
