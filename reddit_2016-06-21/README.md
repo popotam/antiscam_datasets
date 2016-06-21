@@ -1,4 +1,4 @@
-# reddit_2015-06-29
+# reddit_2016-06-21
 
 A dataset of non-spam comments scrapped from reddit.com on 2016-06-21.
 

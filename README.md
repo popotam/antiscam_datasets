@@ -2,9 +2,11 @@
 
 ## Datasets
 
-* reddit_2014-02-19
-* reddit_2015-06-23
-* spam_trap_2014-02-06
+* reddit_2014-02-19 - upvoted comments from top rated topic on Reddit
+* reddit_2015-06-23 - upvoted comments from top rated topic on Reddit
+* reddit_2016-06-21 - upvoted comments from top rated topic on Reddit
+* quora_2016-06-21 - top answers from top questions on top topics on Quora
+* spam_trap_2014-02-06 - spam comments collected by honeypot farm of WordPress instances
 
 ## Files
 

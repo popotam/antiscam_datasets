@@ -1,15 +1,10 @@
-# reddit_2015-06-29
+# quora_2016-06-21
 
-A dataset of non-spam comments scrapped from reddit.com on 2016-06-21.
+A dataset of non-spam answers scrapped from quora.com on 2016-06-21.
 
-Bot starts with [Top topics page](http://www.reddit.com/top.json?sort=top&t=all) and enters each topic in order.
-On each topic page single comments are scrapped.
-Comments are considered valid if the following conditions are met:
-
-* Comment is parsed correctly according to Reddit API docs
-* Comment is ranked positivelly (number_of_thumbs_up - number_of_thumbs_down) > 5
-* Comment is not too short (length > 1000)
-* Comment is not reported as offensive by any user
+Bot starts with links in base_urls.csv and extract top topics (topics.csv).
+From topic pages it extracts links to question pages (questions.csv).
+On each question page top answers are scrapped.
 
 Each document conforms to the following schema:
 
