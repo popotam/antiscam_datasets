@@ -2,7 +2,7 @@
 
 A dataset of non-spam comments scrapped from reddit.com on 2014-02-19.
 
-Bot starts with [Top topics page](http://www.reddit.com/top.json) and enters each topic in order.
+Bot starts with [Top topics page](http://www.reddit.com/top.json?sort=top&t=year) and enters each topic in order.
 On each topic page single comments are scrapped.
 Comments are considered valid if the following conditions are met:
 
